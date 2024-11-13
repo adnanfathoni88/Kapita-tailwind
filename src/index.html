@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Kamera dan Prasmanan</title>
+    <link rel="stylesheet" href="./output.css">
+
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awsome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body class="bg-white relative font-poppins">
+
+    <!-- Header -->
+    <header class="bg-white w-full fixed z-30 shadow-sm">
+        <div class="container mx-auto flex justify-between items-center py-4 px-24">
+            <div class="text-3xl font-bold text-gray-700">Kapita</div>
+            <nav class="space-x-4">
+                <a href="#" class="text-gray-600 hover:text-gray-900">Home</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900">Tentang Kami</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900">Jenis Layanan</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900">Kontak</a>
+                <a href="#" class="bg-blue-500 px-6 py-2 text-white font-semibold rounded-md">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner Utama -->
+    <section class="flex flex-col justify-center bg-white" style="height: 100vh;">
+        <div class="container mx-auto h-[80%] px-24">
+            <div class="h-full relative">
+                <img class="w-full h-full object-cover rounded-3xl" src="../assets/img/kamera-1.avif" alt="">
+                <div class="absolute inset-0 bg-black bg-opacity-50 rounded-3xl"></div>
+                <div class="absolute top-0 h-full w-full px-24">
+                    <div class="h-full w-full flex flex-col justify-center">
+                        <h1 class="text-white font-semibold text-7xl">KAPITA</h1>
+                        <h1 class="text-white font-semibold text-4xl">Sewa Kamera dan Prasmanan</h1>
+                        <!-- <p class="mt-2 text-white text-md opacity-75">Dapatkan berbagai pilihan kamera untuk mendukung
+                            <br>kebutuhan foto dan video Anda.
+                        </p> -->
+                        <p class="mt-2 text-white text-md opacity-75">Dapatkan berbagai pilihan kamera dan prasmanan
+                            <br>
+                            untuk
+                            mendukung kebutuhan foto, video, dan acara Anda.
+                        </p>
+                        <button class="mt-4 px-4 py-2 w-32 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Lihat
+                        </button>
+                    </div>
+                </div>
+                <!-- more -->
+                <div class="absolute w-full -bottom-10">
+                    <div class="bg-white shadow-md mx-auto rounded-lg p-8 w-[80%]">
+                        <!-- cari produk -->
+                        <div class="flex gap-4 justify-between">
+                            <input type="text" class="w-[80%] p-2 border border-gray-300 rounded-lg"
+                                placeholder="Cari produk">
+                            <button class="w-[20%] bg-blue-500 text-white rounded-lg hover:bg-blue-600">Cari</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Bagian Layanan -->
+    <section class="py-24">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6"><span class="text-blue-500">Pilih</span> Layanan Kami</h2>
+            <div class="flex flex-wrap justify-center gap-8">
+                <!-- Booking Kamera -->
+                <div
+                    class=" w-full md:w-1/3 p-4 bg-white outline-slate-200 outline outline-1 rounded-lg overflow-hidden">
+                    <div class="relative">
+                        <img src="../assets/img/list-kamera.png" alt="Booking Kamera" class="w-full h-48 object-cover">
+                        <!-- overlay -->
+                        <div class="absolute bg-black opacity-25 top-0 w-full h-full"></div>
+                    </div>
+
+                    <div class="py-4 flex flex-col justify-start">
+                        <h3 class="text-xl text-start font-semibold text-gray-800">Booking Kamera</h3>
+                        <p class="text-sm mt-2 text-start text-gray-600">Berbagai pilihan kamera untuk mendukung
+                            kebutuhan
+                            foto/video Anda.</p>
+                        <button class="px-4 mt-4 py-2 w-32 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Lihat
+                        </button>
+                    </div>
+                </div>
+                <!-- Booking Prasmanan -->
+                <div
+                    class="w-full md:w-1/3 p-4 bg-white outline-slate-200 outline outline-1 rounded-lg overflow-hidden">
+                    <div class="relative">
+                        <img src="../assets/img/catering.avif" alt="Booking Kamera" class="w-full h-48 object-cover">
+                        <!-- overlay -->
+                        <div class="absolute bg-black opacity-25 top-0 w-full h-full"></div>
+                    </div>
+                    <div class="py-4 flex flex-col justify-start">
+                        <h3 class="text-xl text-start font-semibold text-gray-800">Booking Prasmanan</h3>
+                        <p class="text-sm mt-2 text-start text-gray-600">Berbagai pilihan paket prasmanan untuk
+                            melengkapi
+                            acara
+                            spesial
+                            Anda.</p>
+                        <button class="px-4 mt-4 py-2 w-32 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Lihat
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- produk unggulan -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto text-center px-32">
+            <h2 class="text-3xl font-semibold mb-6"><span class="text-blue-500">Produk</span> Unggulan</h2>
+            <div class="grid grid-cols-3 gap-3">
+                <!-- produk item -->
+                <div class="card bg-white rounded-xl p-4">
+                    <div class="relative">
+                        <img src="../assets/img/kamera-1.avif" alt="Kamera 1"
+                            class="w-full h-48 object-cover rounded-lg">
+                        <div class="absolute top-2 left-2 w-24 bg-orange-400 text-white px-3 py-1 rounded-md">
+                            <span class="text-sm font-semibold">Kamera</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold mt-4">Kamera 1</h3>
+                    <p class="text-gray-600 mt-2">Lorem Dolor Ipsum</p>
+                </div>
+                <div class="card bg-white rounded-xl p-4">
+                    <div class="relative">
+                        <img src="../assets/img/kamera-1.avif" alt="Kamera 1"
+                            class="w-full h-48 object-cover rounded-lg">
+                        <div class="absolute top-2 left-2 w-24 bg-orange-400 text-white px-3 py-1 rounded-md">
+                            <span class="text-sm font-semibold">Kamera</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold mt-4">Kamera 1</h3>
+                    <p class="text-gray-600 mt-2">Lorem Dolor Ipsum</p>
+                </div>
+                <div class="card bg-white rounded-xl p-4">
+                    <div class="relative">
+                        <img src="../assets/img/kamera-1.avif" alt="Kamera 1"
+                            class="w-full h-48 object-cover rounded-lg">
+                        <div class="absolute top-2 left-2 w-24 bg-orange-400 text-white px-3 py-1 rounded-md">
+                            <span class="text-sm font-semibold">Kamera</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold mt-4">Kamera 1</h3>
+                    <p class="text-gray-600 mt-2">Lorem Dolor Ipsum</p>
+                </div>
+            </div>
+            <div class="grid mt-3 grid-cols-3 gap-3">
+                <!-- produk item -->
+                <div class="card bg-white rounded-xl p-4">
+                    <div class="relative">
+                        <img src="../assets/img/kipas.png" alt="Kamera 1"
+                            class="w-full h-48 object-cover object-top rounded-lg">
+                        <div class="absolute top-2 left-2 w-24 bg-orange-400 text-white px-3 py-1 rounded-md">
+                            <span class="text-sm font-semibold">Prasmanan</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold mt-4">Kipas</h3>
+                    <p class="text-gray-600 mt-2">Lorem Dolor Ipsum</p>
+                </div>
+                <div class="card bg-white rounded-xl p-4">
+                    <div class="relative">
+                        <img src="../assets/img/kipas.png" alt="Kamera 1"
+                            class="w-full h-48 object-cover object-top rounded-lg">
+                        <div class="absolute top-2 left-2 w-24 bg-orange-400 text-white px-3 py-1 rounded-md">
+                            <span class="text-sm font-semibold">Prasmanan</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold mt-4">Kipas</h3>
+                    <p class="text-gray-600 mt-2">Lorem Dolor Ipsum</p>
+                </div>
+                <div class="card bg-white rounded-xl p-4">
+                    <div class="relative">
+                        <img src="../assets/img/kipas.png" alt="Kamera 1"
+                            class="w-full h-48 object-cover object-top rounded-lg">
+                        <div class="absolute top-2 left-2 w-24 bg-orange-400 text-white px-3 py-1 rounded-md">
+                            <span class="text-sm font-semibold">Prasmanan</span>
+                        </div>
+                    </div>
+                    <h3 class="text-lg font-semibold mt-4">Kipas</h3>
+                    <p class="text-gray-600 mt-2">Lorem Dolor Ipsum</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- lokasi -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto px-32">
+            <h2 class="text-3xl font-semibold text-center"><span class="text-blue-500">Lokasi</span> Kami</h2>
+            <iframe class="w-full py-4 h-[250px] rounded-lg"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.364611677605!2d110.73109057461322!3d-7.856856278094602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a375b70763b89%3A0x7caefe924f90a204!2sKAPITA%20SEMIN!5e0!3m2!1sid!2sid!4v1731510933368!5m2!1sid!2sid"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Container untuk Swiper -->
+    <section class="py-12">
+        <div class="container mx-auto px-32">
+            <h2 class="text-3xl font-semibold text-center"><span class="text-blue-500">Testimoni</span> Pelanggan
+            </h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper py-8">
+                    <div class="swiper-slide px-2">
+                        <div class="w-full h-full bg-white outline-slate-200 outline outline-1 rounded-lg p-6">
+                            <p class="text-gray-700 italic">"Pelayanan sangat baik dan kamera yang disewa
+                                kualitasnya
+                                bagus
+                                sekali!"</p>
+                            <p class="mt-4 font-semibold text-gray-800">- Alex</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide px-2">
+                        <div class="w-full h-full bg-white outline-slate-200 outline outline-1 rounded-lg p-6">
+                            <p class="text-gray-700 italic">"Pelayanan sangat baik dan kamera yang disewa
+                                kualitasnya
+                                bagus
+                                sekali!"</p>
+                            <p class="mt-4 font-semibold text-gray-800">- Alex</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide px-2">
+                        <div class="w-full h-full bg-white outline-slate-200 outline outline-1 rounded-lg p-6">
+                            <p class="text-gray-700 italic">"Pelayanan sangat baik dan kamera yang disewa
+                                kualitasnya
+                                bagus
+                                sekali!"</p>
+                            <p class="mt-4 font-semibold text-gray-800">- Alex</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide px-2">
+                        <div class="w-full h-full bg-white outline-slate-200 outline outline-1 rounded-lg p-6">
+                            <p class="text-gray-700 italic">"Pelayanan sangat baik dan kamera yang disewa
+                                kualitasnya
+                                bagus
+                                sekali!"</p>
+                            <p class="mt-4 font-semibold text-gray-800">- Alex</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tambahkan Pagination jika diperlukan -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container py-8 px-24 flex flex-col gap-8 items-center text-center">
+            <div>
+                <h2 class="text-3xl font-semibold">Kapita Semin</h2>
+                <p class="mt-4 opacity-50 text-md font-extralight">Penyedia layanan sewa kamera dan prasmanan <br> untuk
+                    mendukung
+                    kebutuhan foto, video, dan acara Anda.</p>
+            </div>
+            <!-- medsos -->
+            <div class="flex justify-center gap-4">
+                <!-- wa -->
+                <a href="#" class="bg-white text-slate-900 rounded-xl">
+                    <i class="bg-blue-500 text-white rounded-xl p-2 fab fa-whatsapp"></i>
+                    <span class="pr-4">
+                        0856 xxxx xxxx
+                    </span>
+                </a>
+                <!-- wa -->
+                <a href="#" class="bg-white text-slate-900 rounded-xl">
+                    <i class="bg-blue-500 text-white rounded-xl p-2 fab fa-instagram"></i>
+                    <span class="pr-4">
+                        Kapita Semin
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="border-t border-gray-600 mt-8">
+            <div class="container mx-auto py-4 text-center">
+                <p class="text-gray-400">© 2024 Kapita Semin. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            slidesPerView: 2,
+            spaceBetween: 8,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+        });
+    </script>
+
+</body>
+
+</html>
